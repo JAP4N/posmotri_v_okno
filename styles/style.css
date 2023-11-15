@@ -225,6 +225,7 @@ ol {
   width: 100%;
   max-width: 378px;
   margin: -2px 0 2px 2px;
+  padding-left: 8px;
 }
 
 .content__details {
@@ -275,10 +276,10 @@ ol {
   background: #545050;
 }
 
-.content__card-link:hover .content__video-card-description-container {
+.content__card-link:hover {
   text-decoration: underline; 
   color: #fff;
-  text-underline-offset: 3px;
+  text-underline-offset: 1px;
 }
 
 .content__card-link:active {
@@ -308,7 +309,6 @@ ol {
 
 .content__video-card-title {
   width: clamp(100px, 189px, 200px);
-  min-height: 32px;
   box-sizing: border-box;
   font-family: Oswald, sans-serif;
   font-size: 30px;
@@ -321,7 +321,6 @@ ol {
 
 .content__video-card-description {
   width: clamp(100px, 189px, 200px);
-  min-height: 18px;
   text-overflow: ellipsis; 
   white-space: nowrap; 
   overflow: hidden;
